@@ -1,0 +1,144 @@
+.page {
+  font-family: sans-serif;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+}
+
+.headerLogo {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #1a6cf5;
+  color: white;
+  font-weight: bold;
+  font-size: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerUser {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.headerEmail {
+  color: #444;
+  font-size: 0.9rem;
+}
+
+.signOutButton {
+  background: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0.25rem 0.75rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.signOutButton:hover {
+  background-color: #f5f5f5;
+}
+
+.main {
+  padding: 2rem;
+}
+
+.pageTitle {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.photoList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.photoRow {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.likeButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+  padding: 0;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.starLiked {
+  color: #f5c518;
+}
+
+.starUnliked {
+  color: #aaa;
+}
+
+.photoThumbnail {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 4px;
+  flex-shrink: 0;
+}
+
+.photoInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1;
+}
+
+.photoPhotographer {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.photoAlt {
+  color: #444;
+}
+
+.photoColor {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: #444;
+}
+
+.colorSwatch {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-radius: 2px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+}
+
+.portfolioLink {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  color: #1a6cf5;
+  text-decoration: none;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.portfolioLink:hover {
+  text-decoration: underline;
+}

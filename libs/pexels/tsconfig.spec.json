@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "outDir": "./out-tsc/vitest",
+    "module": "nodenext",
+    "moduleResolution": "nodenext",
+    "jsx": "react-jsx",
+    "types": ["vitest/globals", "vitest", "node"]
+  },
+  "include": ["src/**/*.spec.ts", "src/**/*.test.ts", "vite.config.mts"]
+}
